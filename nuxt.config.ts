@@ -18,8 +18,7 @@ export default defineNuxtConfig({
       ],
       script: [
         {
-          // eslint-disable-next-line max-len
-          src: 'https://www.paypal.com/sdk/js?client-id=AU7u-8scUliMJ8dD2VuU1A7MkUM8CH68XD40eEeB3dDWVK3xmXadLXf6e8Px7TuTMvsUc0Cx-BPeAv-w&vault=true&intent=subscription',
+          src: 'https://www.paypal.com/sdk/js?client-id=sb&vault=true&intent=subscription',
           'data-sdk-integration-source': 'button-factory',
         },
       ],
